@@ -79,7 +79,7 @@ localhost:8080/Produtos/getFavoritos/{email}
 
 # Banco de dados MySQL
 
-## tabela Cliente
+## Tabela Cliente
 CREATE TABLE `cliente` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `nome` varchar(255) DEFAULT NULL,
