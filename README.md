@@ -77,6 +77,39 @@ Consulta lista de favoritos.
 Metodo GET
 localhost:8080/Produtos/getFavoritos/{email}
 
+# Banco de dados MySQL
+
+## tabela Cliente
+CREATE TABLE `cliente` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `nome` varchar(255) DEFAULT NULL,
+  `email` varchar(255) DEFAULT NULL,
+  `senha` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+## Tabela Produtos
+CREATE TABLE `produtos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `Brande` varchar(255) DEFAULT NULL,
+  `tittle` varchar(255) DEFAULT NULL,
+  `UrlImage` varchar(255) DEFAULT NULL,
+  `price` float DEFAULT NULL,
+  `ReviewScore` float DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+## Tabela ListaFavoritos
+CREATE TABLE `listafavoritos` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `SKU` int(11) DEFAULT NULL,
+  `tittle` varchar(255) DEFAULT NULL,
+  `nomeCliente` varchar(255) DEFAULT NULL,
+  `email` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=5 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
 
 
