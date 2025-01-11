@@ -2,7 +2,7 @@
 API onde podemos cadastrar um cliente e produtos, onde conseguimos criar lista de produtos favoritos para cada cliente.
 
 
-#Clientes
+# Clientes
 
 Para registrar um Cliente utilize o caminho.
 Metodo POST
@@ -36,7 +36,7 @@ Deletar um cliente
 Metodo DELETE
 localhost:8080/Cliente/delete/{id}
 
-#Produtos
+# Produtos
 
 Registrar um produto 
 Metodo POST
