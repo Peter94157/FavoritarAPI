@@ -37,7 +37,7 @@ API onde podemos cadastrar um cliente e produtos, onde conseguimos criar lista d
 | :---------- | :--------- | :------------------------------------------ |
 | `Nome`      | `string` | **Obrigatório**. O nome do cliente |
 | `Email`      | `string` | **Obrigatório**. O email do cliente |
-| `Senha`      | `string` | **Obrigatório**. O senha do cliente |
+| `Senha`      | `string` | **Obrigatório**. A senha do cliente |
 
 
 #### Atualiza um cliente.
